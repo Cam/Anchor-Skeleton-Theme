@@ -1,0 +1,5 @@
+Theme name:     Cam
+Description:    Custom theme by Cam
+Author name:    Cam Gould
+Author site:    http://camgould.com
+License:        http://licence.visualidiot.com

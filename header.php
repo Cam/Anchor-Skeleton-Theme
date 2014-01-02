@@ -18,9 +18,7 @@
 		
 		<title><?php echo page_title(); ?> | <?php echo site_name(); ?></title>
 		
-		<link href="<?php echo theme_url('css/foundation.css'); ?>"  rel="stylesheet" media="screen" type="text/css" />
-		<link href="<?php echo theme_url('css/foundation-icons.css'); ?>" rel="stylesheet" />
-		<link href="<?php echo theme_url('css/custom.css'); ?>"  rel="stylesheet" media="screen" type="text/css" />
+		<link href="<?php echo theme_url('css/style.css'); ?>"  rel="stylesheet" media="screen" type="text/css" />
 		<link rel="shortcut icon" href="<?php echo theme_url('img/favicon.ico'); ?>" type="image/x-icon" />
 		
 		<!-- Add per-post CSS -->
@@ -32,8 +30,6 @@
 		<?php if(article_js()): ?>
 			<script><?php echo article_js(); ?></script>
 		<?php endif; ?>
-		
-		<script src="<?php echo theme_url('js/modernizr.js'); ?>"></script>
 	</head>
 
 	<body>

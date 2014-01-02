@@ -1,4 +1,4 @@
 Anchor-Skeleton-Theme
 =====================
 
-A skeleton theme for creating themes for the wonderful Anchor CMS
+A skeleton theme for creating themes for the wonderful Anchor CMS http://anchorcms.com

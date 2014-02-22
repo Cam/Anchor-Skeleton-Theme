@@ -12,7 +12,6 @@
 		<section class="comments">
 			<!-- Comment List -->
 			<?php if(comments_open() and has_comments()): ?>
-				<?php echo total_comments() . pluralise(total_comments(), ' comment'); ?>
 			    <?php while(comments()): ?>
 			        <?php echo comments_text(); ?>
 			        <?php echo comments_text(); ?>

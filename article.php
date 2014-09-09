@@ -13,8 +13,8 @@
 			<!-- Comment List -->
 			<?php if(comments_open() and has_comments()): ?>
 			    <?php while(comments()): ?>
-			        <?php echo comments_text(); ?>
-			        <?php echo comments_text(); ?>
+			        <?php echo comment_text(); ?>
+			        <?php echo comment_text(); ?>
 			        <?php echo comment_date(); ?>
 			    <?php endwhile; ?>
 			<?php endif; ?>

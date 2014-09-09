@@ -14,7 +14,6 @@
 			<?php if(comments_open() and has_comments()): ?>
 			    <?php while(comments()): ?>
 			        <?php echo comment_text(); ?>
-			        <?php echo comment_text(); ?>
 			        <?php echo comment_date(); ?>
 			    <?php endwhile; ?>
 			<?php endif; ?>
